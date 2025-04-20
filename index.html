@@ -6,13 +6,20 @@
    <title>Portfolio With Sass</title>
    <!-- link stylesheet  -->
    <link rel="stylesheet" href="./assets/css/style.css">
+   
    <!-- link font-awesome -->
     <link rel="stylesheet" href="./assets/css/fontawesom.css">
+
+    <!-- link google fonts Poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
    <!-- navbar start  -->
-   <nav class="navbar navbar-expand-lg navbar-dark menu">
+   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
          <img src="./images/header-logo.svg" alt="logo image">
@@ -46,6 +53,40 @@
       </div>
     </nav>
    <!-- navbar end  -->
+
+   <!-- main section start   -->
+    <main> 
+   <!-- intro section start  -->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <!-- start content for the intro  -->
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">hey! i'm rakib molla</span>
+              <span class="display-2--description lh-base">I am passionate Frontend Developer with over 5 years of hands-on experience crafting modern, responsive, and user-centric websites.I’ve successfully completed 120+ diverse web projects.</span>
+            </h1>
+            <button type="button" class="rounded-pill btn-rounded">+8801974013593 <span><i class="fas fa-phone-alt"></i></span></button>
+          </div>
+          <!-- end content for the intro  -->
+           <!-- start the content for video  -->
+           <div class="col-md-6 intros text-end">
+            <div class="video-box ">
+              <img src="./images/arts/coding.png" alt="coding video" class="img-fluid">
+              <a href="#">
+                <span>
+                  <i class="fas fa-play-circle"></i>
+                </span>
+              </a>
+            </div>
+           </div>
+           <!-- end the content for video  -->
+        </div>
+      </div>
+    </section>
+   <!-- intro section end -->
+  </main>
+   <!-- main section end   -->
    
    <script src="./assets/js/bootstrap.bundle.js"></script>
 </body>
