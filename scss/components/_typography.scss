@@ -13,10 +13,15 @@
    }
 
    &--description{
-      font-size: 1.2rem;
+      font-size: 1rem;
       display: block;
       color: $white;
       text-transform: capitalize;
+
+      @include media-breakpoint-up(lg){
+         font-size: 1.4rem;
+         display: inline-block;
+      }
    }
 
 }
